@@ -84,8 +84,8 @@
     justify-content: space-evenly;
 
     .hero {
-      max-width: 350px;
-      width: 350px;
+      max-width: 325px;
+      width: 325px;
     }
   }
 }

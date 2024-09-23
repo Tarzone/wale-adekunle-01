@@ -52,6 +52,7 @@ function Hero() {
           <a href="https://gitlab.com/Tarzone" target="_blank"> 
           <img src={GitLabIcon} alt="GitLab Icon" />
           </a>
+          {/* icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
         </span>
         <p className={styles.description}>
           Delivering continuous integration solutions seamlessly through the SDLC process.
