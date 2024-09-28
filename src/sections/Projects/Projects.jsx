@@ -1,6 +1,7 @@
 import styles from './ProjectStyles.module.css';
 import docker from '../../assets/docker-container.png';
 import kubernetes from '../../assets/kubernetes.png';
+import jenkins from '../../assets/jenkins.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -19,6 +20,12 @@ function Projects() {
           link="https://gitlab.com/techbootcamp2/app-docker-containerization" 
           h3="Kubernetes"
           p="Kubebench - STIG Compliance Tool"
+        />             
+        <ProjectCard 
+          src={jenkins} 
+          link="https://gitlab.com/techbootcamp2/java-maven-app/-/tree/jenkins-jobs?ref_type=heads" 
+          h3="Jenkins CI/CD"
+          p="Pipeline Integrations"
         />             
       </div>
     </section>
