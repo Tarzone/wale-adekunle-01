@@ -17,7 +17,7 @@ function Projects() {
         />
         <ProjectCard 
           src={kubernetes} 
-          link="https://gitlab.com/techbootcamp2/app-docker-containerization" 
+          link="https://github.com/Tarzone/kube8-app-thrusters"
           h3="Kubernetes"
           p="Kubebench - STIG Compliance Tool"
         />             
